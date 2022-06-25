@@ -7,23 +7,23 @@
 [Server]
   # The name as it shows up in the server list. Minecraft colour codes may be used in this name to format the
   # name of the server.
-  Name = "Dragonfly Server"
+  Name = "Flora MCBE"
   # The message shown to players when the server is shutting down. The message may be left empty to direct
   # players to the server list directly.
-  ShutdownMessage = "Server closed."
+  ShutdownMessage = "§cServer Closed. \n§7Server should be back in a few seconds"
   # AuthEnabled controls whether or not players must be connected to Xbox Live in order to join the server.
   AuthEnabled = true
   # JoinMessage is the message that appears when a player joins the server. Leave this empty to disable it.
   # %v is the placeholder for the username of the player. Set this to "" to disable.
-  JoinMessage = "%v has joined the game"
+  JoinMessage = "§7[§a+§7]§e %v joined."
   # QuitMessage is the message that appears when a player leaves the server. Leave this empty to disable it.
   # %v is the placeholder for the username of the player. Set this to "" to disable.
-  QuitMessage = "%v has left the game"
+  QuitMessage = "§7[§c-§7]§e %v left."
 
 [World]
   # The name of the world of the server. The name will show up at the top of the player list in the in-game
   # pause menu. It has no functionality beyond that.
-  Name = "World"
+  Name = "Flora Cofé"
   # The folder that the world files (will) reside in, relative to the working directory. If not currently
   # present, the folder will be made.
   Folder = "world"
